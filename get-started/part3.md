@@ -128,6 +128,8 @@ Now let's run it. You need to give your app a name. Here, it is set to
 ```shell
 docker stack deploy -c docker-compose.yml getstartedlab
 ```
+In case of syntax errors, make sure that file layout 
+is preserved and only "space" symbols are used to indent lines.
 
 Our single service stack is running 5 container instances of our deployed image
 on one host. Let's investigate.
